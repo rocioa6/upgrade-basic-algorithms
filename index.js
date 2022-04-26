@@ -42,3 +42,32 @@ car1.finalPrice = car1.basePrice + globalBasePrice;
 car2.finalPrice = car1.basePrice + globalBasePrice;
 
 console.log('precio coche 1: ' + car1.finalPrice + ' precio coche 2: ' + car2.finalPrice);
+
+/* 1.1 Multiplica 10 por 5 y muestra el resultado mediante alert.*/
+
+let multiplicar = 10 * 5;
+alert('Resultado de multiplicar = ' + multiplicar);
+
+
+/* 1.2 Divide 10 por 2 y muestra el resultado en un alert. */
+let dividir = 10 / 2;
+alert('Resultado de dividir = ' + dividir);
+
+/* 1.3 Muestra mediante un alert el resto de dividir 15 por 9. */
+
+let dividir2 = 15 / 9;
+alert('Resultado de dividir 2 = ' + dividir2);
+
+/* 1.4 Usa el correcto operador de asignación que resultará en x = 15, 
+teniendo dos variables y = 10 y z = 5. */
+
+y = 10;
+z = 5;
+x = y + z;
+console.log('Ejercicio 1.4 ' + x);
+
+/* 1.5 Usa el correcto operador de asignación que resultará en x = 50,
+teniendo dos variables y = 10 y z = 5. */ 
+
+x = y * z;
+console.log('Ejercicio 1.5 ' + x);
